@@ -29,7 +29,7 @@ export const Letter: React.FC = () => {
 
   return (
     <div
-      className="bg-[#F3EDE1] px-12 py-8 rounded-lg flex h-[740px] flex-col gap-16"
+      className="bg-[#F3EDE1] px-6 py-8 rounded-lg flex h-[740px] flex-col gap-16"
       style={{ maxWidth: "560px", position: "relative", zIndex: 1 }}
     >
       <div>
