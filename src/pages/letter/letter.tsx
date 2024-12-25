@@ -46,6 +46,7 @@ export const Letter: React.FC = () => {
         >
           {letter.letter_content}
         </div>
+        <a href="https://vm.tiktok.com/ZMkhjBJMM/">Clica aqui</a>
       </div>
     </div>
   );
