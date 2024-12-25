@@ -29,12 +29,21 @@ export const Letter: React.FC = () => {
 
   return (
     <div
-      className="bg-[#F3EDE1] px-12 py-8 rounded-lg flex h-[740px] flex-col gap-16"
-      style={{ maxWidth: "560px", position: "relative", zIndex: 1 }}
+      className={`bg-[#F3EDE1] py-8 rounded-lg flex h-[740px] flex-col gap-16 ${window.innerWidth < 768 ? 'px-12' : 'px-6'}`}
+      style={{ maxWidth: "560px", position: "relative", zIndex: 1, paddingInline: window.innerWidth < 768 ? '24px' : '48px' }}
     >
       <div>
         <h1 className="mb-6 font-bold">{letter.letter_title}</h1>
-        <div style={{ overflowY: "auto", maxHeight: "470px", wordWrap: "break-word", overflowWrap: "break-word", whiteSpace: "pre-wrap" }}>
+        <div
+          style={{
+            overflowY: "auto",
+            maxHeight: "500px",
+            wordWrap: "break-word",
+            overflowWrap: "break-word",
+            whiteSpace: "pre-wrap",
+            fontSize: window.innerWidth < 768 ? "16px" : "20px",
+          }}
+        >
           {letter.letter_content}
         </div>
       </div>
