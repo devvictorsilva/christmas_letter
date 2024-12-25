@@ -6,7 +6,7 @@ export const Home: React.FC = () => {
     <>
       <LoginComponent></LoginComponent>
       <img
-        src="/public/border.png"
+        src="border.png"
         alt=""
         style={{
           position: "absolute",
@@ -17,7 +17,7 @@ export const Home: React.FC = () => {
         }}
       />
       <img
-        src="/public/border.png"
+        src="border.png"
         alt=""
         style={{
           position: "absolute",
@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
         }}
       />
       <img
-        src="/public/arvore.png"
+        src="arvore.png"
         alt=""
         style={{
           position: "absolute",
