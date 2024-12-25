@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'LastChristmas';
+  src: url('assets/LastChristmas_PERSONAL_USE_ONLY.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url('src/assets/bg.svg');
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  color: #E2203B;
+  font-family: 'LastChristmas';
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
