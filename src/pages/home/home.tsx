@@ -13,7 +13,7 @@ export const Home: React.FC = () => {
           top: 0,
           right: 0,
           pointerEvents: "none",
-          width: window.innerWidth <= 768 ? '200px' : 'auto' 
+          width: window.innerWidth <= 768 ? '150px' : 'auto' 
         }}
       />
       <img
@@ -25,7 +25,7 @@ export const Home: React.FC = () => {
           left: 0,
           transform: "rotate(270deg)",
           pointerEvents: "none",
-          width: window.innerWidth <= 768 ? '200px' : 'auto' 
+          width: window.innerWidth <= 768 ? '150px' : 'auto' 
         }}
       />
       <img
